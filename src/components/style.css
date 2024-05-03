@@ -1,0 +1,45 @@
+ .left{
+    border: 5px solid black;   
+    width: 30%;
+} 
+.rightBar{
+    border: 5px solid black;
+    width: 70%;
+} 
+.body{
+    display: flex;
+    height: 500px;
+}
+.header{
+    border: 5px solid rgb(0, 0, 0);
+    height: 5%;
+}
+/* .main{
+    display: flex;
+    
+} */
+.tasks {
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0;
+    background-color: #ffffff; /* Optionally, you can specify a background color */
+    padding: 10px; /* Add padding for better visibility */
+  }
+  .input {
+    position: fixed;
+    bottom: 0;
+    width: 100%; /* Set the width to span the entire width of the viewport */
+    background-color: #ffffff; /* Optionally, you can specify a background color */
+    padding: 10px; /* Add padding for better visibility */
+  }
+  .blended-text {
+    transition: color 0.3s ease; /* Smooth transition for color change */
+  }
+  
+  input[type="checkbox"]:checked + .blended-text {
+    color: rgba(0, 0, 0, 0.5); /* Blend the text color when checkbox is checked */
+  }
+
+ 
+  
+  
